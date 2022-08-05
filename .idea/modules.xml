@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeFighter.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeFighter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TimeFighter.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
