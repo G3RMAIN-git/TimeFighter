@@ -71,6 +71,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feat/prettyer-app-with-menu-with-companion-added" />
+                    <option name="lastUsedInstant" value="1659704559" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feat/prettifyng-the-app" />
                     <option name="lastUsedInstant" value="1659693203" />
                   </RecentBranch>
