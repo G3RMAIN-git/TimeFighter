@@ -3,6 +3,8 @@ package com.technipixl.timefighter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -32,7 +34,13 @@ class MainActivity : AppCompatActivity() {
         /*val newScore = getString(R.string.your_score, score)
         gameScoreTextView.text = newScore*/
 
-        tapMeButton.setOnClickListener{incrementScore()}
+        //tapMeButton.setOnClickListener{incrementScore()}
+
+        tapMeButton.setOnClickListener{it ->
+            val bounceAnimation = AnimationUtils.loadAnimation(this,R.anim.bounce)
+            it.startAnimation(bounceAnimation)
+            incrementScore()
+        }
 
         resetGame()
     }
@@ -88,5 +96,9 @@ class MainActivity : AppCompatActivity() {
     private fun endGame(){
         Toast.makeText(this, getString(R.string.game_over_message,score), Toast.LENGTH_LONG).show()
         resetGame()
+    }
+    companion object{
+        private const val SCORE_KEY = "SCORE_KEY"
+        private const val TIME_LEFT_KEY = "TIME_LEFT_KEY"
     }
 }
